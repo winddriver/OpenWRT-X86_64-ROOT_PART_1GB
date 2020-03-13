@@ -8,7 +8,6 @@
 # Modify default IP
 #sed -i 's/192.168.1.1/192.168.50.5/g' package/base-files/files/bin/config_generate
 echo "src-git lienol https://github.com/Lienol/openwrt-package" >> ./feeds.conf.default
-./scripts/feeds clean
 ./scripts/feeds update -a
 rm -rf feeds/lienol/lienol/ipt2socks
 rm -rf feeds/lienol/lienol/shadowsocksr-libev
