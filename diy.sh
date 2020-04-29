@@ -20,4 +20,7 @@
 #rm -rf package/lean/luci-app-v2ray-server
 #./scripts/feeds install -a
 
+# 开启这个才能编译出ssr-plus
+echo "src-git helloworld https://github.com/fw876/helloworld" >> ./feeds.conf.default
+
 sed -i 's/luci-theme-bootstrap/luci-theme-argon/g' ./feeds/luci/collections/luci/Makefile
