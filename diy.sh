@@ -1,4 +1,4 @@
-#!/bin/bash
+ï»¿#!/bin/bash
 #=================================================
 # Description: DIY script
 # Lisence: MIT
@@ -20,7 +20,10 @@
 #rm -rf package/lean/luci-app-v2ray-server
 #./scripts/feeds install -a
 
-# ¿ªÆôÕâ¸ö²ÅÄÜ±àÒë³össr-plus
+# å¼€å¯è¿™ä¸ªæ‰èƒ½ç¼–è¯‘å‡ºssr-plus
 echo "src-git helloworld https://github.com/fw876/helloworld" >> ./feeds.conf.default
+./scripts/feeds update -a
+./scripts/feeds install -a
 
 sed -i 's/luci-theme-bootstrap/luci-theme-argon/g' ./feeds/luci/collections/luci/Makefile
+
