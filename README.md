@@ -1,3 +1,5 @@
+new Actions
+[![Build OpenWrt](https://github.com/surichard/OpenWRT-X86_64-ROOT_PART_1GB/actions/workflows/build-openwrt.yml/badge.svg)](https://github.com/surichard/OpenWRT-X86_64-ROOT_PART_1GB/actions/workflows/build-openwrt.yml)
 # Actions-OpenWrt
 
 [![LICENSE](https://img.shields.io/github/license/mashape/apistatus.svg?style=flat-square&label=LICENSE)](https://github.com/P3TERX/Actions-OpenWrt/blob/master/LICENSE)
